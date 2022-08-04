@@ -1,0 +1,591 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Complete Responsive Construction Website Design </title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+     
+<!-- header section starts  -->
+
+<header class="header">
+  
+
+   <a href="#" class="logo">
+      <img src="./images/logo Trapic 1.JPG" alt="">TRAPIC<span>SARL</span></a>
+
+   <nav class="navbar">
+      <a href="#home">home</a>
+      <a href="#about">about</a>
+      <a href="#services">services</a>
+      <a href="#projects">projects</a>
+      <a href="#contact">contact</a>
+      <a href="#blogs">blogs</a>
+   </nav>
+
+   <div class="icons">
+      <div id="menu-btn" class="fas fa-bars"></div>
+      <div id="info-btn" class="fas fa-info-circle"></div>
+      <div id="search-btn" class="fas fa-search"></div>
+      <div id="login-btn" class="fas fa-user"></div>
+   </div>
+
+
+   <form action="" class="search-form">
+      <input type="search" name="" placeholder="search here..." id="search-box">
+      <label for="search-box" class="fas fa-search"></label>
+   </form>
+
+   <form action="" class="login-form"  method="POST">
+      <h1>connexion</h1>
+
+      <label><b>Adresse Email</b></label>
+
+      <input type="text" placeholder="Entrer votre adresse Email" name="username" required>
+     
+      <label><b>Mot de passe</b></label>
+
+      <input type="password" placeholder="Entrer le mot de passe" name="password" required>
+      <div class="flex">
+         <input type="checkbox" name="" id="remember-me">
+         <label for="remember-me">remember me</label>
+         <a href="#">forgot password?</a>
+      </div>
+      <input type="submit" value="login now" class="btn">
+      <p>don't have an account? <a href="#">create one!</a></p>
+      <input type="submit" id='submit' value='LOGIN'>
+           
+   </form>
+   </div>
+</header>
+
+<div class="contact-info">
+
+   <div id="close-contact-info" class="fas fa-times"></div>
+
+   <div class="info">
+      <i class="fas fa-phone"></i>
+      <h3>phone number</h3>
+      <p>(+237) 233-422-288 / 243-083-765</p>
+      <p>GSM: (+237) 654-916-417 / 654-916-403</p>
+   </div>
+
+   <div class="info">
+      <i class="fas fa-envelope"></i>
+      <h3>email address</h3>
+      <p>trapic2@yahoo.fr</p>
+      <p>N° RC : Douala/2005/B/564</p>
+   </div>
+
+   <div class="info">
+      <i class="fas fa-map-marker-alt"></i>
+      <h3>Nous sommes situé à </h3>
+      <p>BALI , Face L'Usine des Brasseries du Cameroun.</p>
+   </div>
+
+   <div class="share">
+      <a href="#" class="fab fa-facebook-f"></a>
+      <a href="#" class="fab fa-twitter"></a>
+      <a href="#" class="fab fa-instagram"></a>
+   </div>
+
+</div>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+   <div class="swiper home-slider">
+
+      <div class="swiper-wrapper">
+
+         <section class="swiper-slide slide" style="background: url(images/king.jpg) no-repeat;">
+
+              
+         
+            <div class="content">
+               <img src="./images/logo Trapic.JPG" alt="">
+               <h3>Une Vision Différente et recherchée</h3>
+               <p>C'est dans une position favorable et bien determinée que nous vous présentons notre vision de vos projets afin de les rendre réels à vos yeux et aux yeux de tous ceux qui vous entourent!</p>
+               <a href="#about" class="btn">get started</a>
+            </div>
+         </section>
+
+         <section class="swiper-slide slide" style="background: url(images/home-slide-2.jpg) no-repeat;">
+            <div class="content">
+               <h3>Faire de vos Rêves une Réalité</h3>
+               <p>Dans un engagement serein et déterminé de nos travailleurs , nous veillons à ce que vous trouvez raison d'avoir cru en nous et de nous donner cette opportunité de faire parler votre imagination!</p>
+               <a href="#about" class="btn">ALLEZ-y commencer!</a>
+            </div>
+         </section>
+
+         <section class="swiper-slide slide" style="background: url(images/home-slide-3.jpg) no-repeat;">
+            <div class="content">
+               <h3>De la conception à la Réalisation</h3>
+               <p>Dans une condition bien déterminée, nous prenons en charge la conception de vos différents projets afin de promouvoir leur réalisation à venir!</p>
+               <a href="#about" class="btn">get started!</a>
+            </div>
+         </section>
+
+      </div>
+
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+
+   </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+   <h1 class="heading"> A PROPOS DE NOUS </h1>
+
+   <div class="row">
+
+      <div class="video">
+         <video src="images/about-vid.mp4" loop muted autoplay></video>
+      </div>
+
+      <div class="content">
+         <h3>Nous vous présentons un travail meilleur avec un personnel hautement qualifié!</h3>
+         <p>TRAPIC Sarl est une entreprise qui cumule 17 années d’expérience dans le domaine du génie civil, électricité et climatisation.Elle est dotée d’un personnel expérimenté capable de se déployer dans tout le Territoire National et d’apporter des solutions efficaces et durables à vos problèmes dans tout son domaine de compétence.</p>
+         <a href="#services" class="btn">read more</a>
+      </div>
+
+   </div>
+
+   <div class="box-container">
+
+      <div class="box">
+         <h3>17+</h3>
+         <p>Années d'Expérience</p>
+      </div>
+
+      <div class="box">
+         <h3>1500+</h3>
+         <p>projets réalisés</p>
+      </div>
+
+      <div class="box">
+         <h3>790+</h3>
+         <p>Clients Satisfaits</p>
+      </div>
+
+      <div class="box">
+         <h3>450+</h3>
+         <p>travailleurs Actifs</p>
+      </div>
+
+   </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- services section starts  -->
+
+<section class="services" id="services">
+
+   <h1 class="heading"> NOS SERVICES </h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <img src="images/service-1.png" alt="">
+         <h3>constructions Bâtiments</h3>
+         <p>L’entreprise possède une expérience professionnelle pour avoir travaillé dans plusieurs domaines.</p>
+      </div>
+
+      <div class="box">
+         <img src="images/service-2.png" alt="">
+         <h3>renovations Bâtiments</h3>
+         <p>Votre localité ou bâtiment manque de beauté? Alors contactez-nous pour le renover.</p>
+      </div>
+
+      <div class="box">
+         <img src="images/service-3.png" alt="">
+         <h3>architecture design</h3>
+         <p>Des Architectes en service pour vos projets.</p>
+      </div>
+
+      <div class="box">
+         <img src="images/service-4.png" alt="">
+         <h3>matériels performants</h3>
+         <p>Toujours proches de vous dans tout le Cameroun. Dans tous nos projets, les besoins et souhaits de nos clients sont au cœur de nos priorités. </p>
+      </div>
+
+      <div class="box">
+         <img src="images/service-5.png" alt="">
+         <h3>Consultant en construction</h3>
+         <p>Demandez conseil si vous avez des doutes! </p>
+         </body>
+         </html>.</p>
+      </div>
+
+      <div class="box">
+         <img src="images/service-6.png" alt="">
+         <h3>Design intérieur</h3>
+         <p>Pour vos soucis de décoration , une seule adresse !.</p>
+      </div>
+
+      <div class="box">
+         <img src="images/service-7.png" alt="">
+         <h3>Maintenance matérielle</h3>
+         <p>Chaque technicien dispose de son outillage propre qui lui est remis lors de l’embauche (marteau, truelle, barre à mine, burin…)</p>
+      </div>
+
+      <div class="box">
+         <img src="images/service-8.png" alt="">
+         <h3>Services de Renovation</h3>
+         <p>Tout un service disposé pour vos soucis de renovation.</p>
+      </div>
+      
+   </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- projects section starts  -->
+
+<section class="projects" id="projects">
+
+   <h1 class="heading"> NOS  PROJETS </h1>
+
+   <div class="box-container">
+
+      <a href="images/P15.jpg"class="box">
+         <div class="image">
+            <img src="images/P15.jpg"alt="">
+         </div>
+         <div class="content">
+            <div class="info">
+               <h3>COMPLEXE HOTELIER</h3>
+               <p>1 750 230 905 FCFA</p>
+            </div>
+            <i class="fas fa-plus"></i>
+         </div>
+      </a>
+
+      <a href="images/yassa/CV.jpg" class="box">
+         <div class="image">
+            <img src="images/yassa/CV.jpg" alt="">
+         </div>
+         <div class="content">
+            <div class="info">
+               <h3> 27 DUPLEX ( LES PERLES DE YASSA)</h3>
+               <p>1 501 148 813 FCFA</p>
+            </div>
+            <i class="fas fa-plus"></i>
+         </div>
+      </a>
+
+      <a href="images/Carrefour-Market.jpg" class="box">
+         <div class="image">
+            <img src="images/Carrefour-Market.jpg" alt="">
+         </div>
+         <div class="content">
+            <div class="info">
+               <h3>AGENCE GENERALE CARREFOUR MARKET</h3>
+               <p>36 840 359 FCFA</p>
+            </div>
+            <i class="fas fa-plus"></i>
+         </div>
+      </a>
+
+      <a href="images/R (2).jpg" class="box">
+         <div class="image">
+            <img src="images/R (2).jpg" alt="">
+         </div>
+         <div class="content">
+            <div class="info">
+               <h3>CENTRE D'ACCEUIL ET D'HEBERGEMENT</h3>
+               <p>55 063 185 FCFA</p>
+            </div>
+            <i class="fas fa-plus"></i>
+         </div>
+      </a>
+
+      <a href="images/project-4.jpg" class="box">
+         <div class="image">
+            <img src="images/project-4.jpg" alt="">
+         </div>
+         <div class="content">
+            <div class="info">
+               <h3>CIMAF</h3>
+               <p>19 922 916 FCFA</p>
+            </div>
+            <i class="fas fa-plus"></i>
+         </div>
+      </a>
+
+      <a href="images/project-6.jpg" class="box">
+         <div class="image">
+            <img src="images/project-6.jpg" alt="">
+         </div>
+         <div class="content">
+            <div class="info">
+               <h3>DPDC</h3>
+               <p>25 936 000 FCFA</p>
+            </div>
+            <i class="fas fa-plus"></i>
+         </div>
+      </a>
+
+   </div>
+
+</section>
+
+<!-- projects section ends -->
+
+<!-- reviews section starts  -->
+
+<section class="reviews">
+
+   <h1 class="heading"> Clients reviews </h1>
+
+   <div class="swiper reviews-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide">
+            <div class="user">
+               <img src="images/pic-1.png" alt="">
+               <div class="info">
+                  <h3>JOHN RAYAN</h3>
+                  <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <p>Votre vision va non seulement au délà de nos attentes mais cela nous impressionne par dessus tout .</p>
+            <div class="user">
+               <img src="images/pic-2.png" alt="">
+               <div class="info">
+                  <h3>SYLVIANE</h3>
+                  <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <p>Merci à TRAPIC SARL et à toute son Equipe pour avoir mener à bien mon projet !</p>
+            <div class="user">   
+               
+            </div>
+         </div>
+
+      </div>
+
+   </div>
+
+</section>
+
+<!-- reviews section ends -->
+
+
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+   <h1 class="heading"> contact us </h1>
+
+   <div class="row">
+
+      <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15076.89592087332!2d72.8319697277345!3d19.14167056419224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63aceef0c69%3A0x2aa80cf2287dfa3b!2sJogeshwari%20West%2C%20Mumbai%2C%20Maharashtra%20400047!5e0!3m2!1sen!2sin!4v1641716772852!5m2!1sen!2sin"allowfullscreen="" loading="lazy"></iframe>
+
+      <form action="">
+         <h3>get in touch</h3>
+         <input type="text" placeholder="name" class="box">
+         <input type="email" placeholder="email" class="box">
+         <input type="number" placeholder="phone" class="box">
+         <textarea name="" placeholder="message" class="box" id="" cols="30" rows="10"></textarea>
+         <input type="submit" value="send message" class="btn">
+      </form>
+
+   </div>
+
+</section>
+
+<!-- contact section ends -->
+
+<!-- blogs section starts  -->
+
+<section class="blogs" id="blogs">
+
+   <h1 class="heading"> our blogs </h1>
+
+   <div class="swiper blogs-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/blog-1.jpg" alt="">
+            </div>
+            <div class="content">
+               <h3>DES CAMIONS DE BATISSEMENT</h3>
+               <p>pour vous servir , nous mettons nos équipements automobiles à votre service</p>
+               <a href="#" class="btn">FAITES LE BON CHOIX CHEZ NOUS !</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/blog-2.jpg" alt="">
+            </div>
+            <div class="content">
+               <h3>Des techniciens Diplomés et compétents</h3>
+               <p>L'union fais la force , tout comme pour nous, nous comptons sur la compétence de tous afin de vous satisfaire!</p>
+               <a href="#" class="btn">LE MEILLEUR CHOIX DE L'EQUIPE !</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/blog-3.jpg" alt="">
+            </div>
+            <div class="content">
+               <h3>DES MATERIAUX UNIQUE A NOS TECHNICIENS</h3>
+               <p>Pour une réalisation meilleure , chacun de nous possède son équipement de travail !</p>
+               <a href="#" class="btn">SOYEZ NOTRE PROJET</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/blog-4.jpg" alt="">
+            </div>
+            <div class="content">
+               <h3>NOS DEPLOIEMENTS</h3>
+               <p>A fort de preuve , nous restons toujours en position de Réussite !</p>
+               <a href="#" class="btn">SOYEZ NOTRE PROJET</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/blog-5.jpg" alt="">
+            </div>
+            <div class="content">
+               <h3>NOTRE STRATEGIE ET NOTRE VISION</h3>
+               <p>Nous vous proposons de meilleures plans d'architectures  !</p>
+               <a href="#" class="btn">FAITES VOS PLANS AVEC NOUS</a>
+            </div>
+         </div>
+         
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/blog-6.jpg" alt="">
+            </div>
+            <div class="content">
+               <h3>LA SCHEMATISATION DE VOTRE PROJET</h3>
+               <p>Un service hors pairs pour vous présenter l'image de vos projets !</p>
+               <a href="#" class="btn">En savoir plus !</a>
+            </div>
+         </div>
+
+      </div>
+
+   </div>
+
+</section>
+
+<!-- blogs section ends -->
+
+<!-- client logo section starts -->
+
+<section class="logo-container">
+   <div class="swiper logo-slider">
+      <div class="swiper - wrapper">
+         <div class="swiper-slide slide"><img src="images/bicec.jpeg" alt=""></div>
+         <div class="swiper-slide slide"><img src="images/dit.jpeg" alt=""></div>
+         <div class="swiper-slide slide"><img src="images/Ola.jpeg" alt=""></div>
+         <div class="swiper-slide slide"><img src="images/MTN.png" alt=""></div>
+         <div class="swiper-slide slide"><img src="images/Orange.png" alt=""></div>
+         <div class="swiper-slide slide"><img src="images/saham.jpeg" alt=""></div>
+         <div class="swiper-slide slide"><img src="images/societe-generale-cameroun.png" alt=""></div>
+      </div>
+   </div>
+</section>
+
+<!-- client logo section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+   <div class="links">
+      <a class="btn" href="#home">home</a>
+      <a class="btn" href="#about">about</a>
+      <a class="btn" href="#services">services</a>
+      <a class="btn" href="#projects">projects</a>
+      <a class="btn" href="#contact">contact</a>
+      <a class="btn" href="#blogs">blogs</a>
+   </div>
+
+
+
+   <div class="credit"><h1>@2022 TRAPIC SARL</h1> Created by <span> GLOBAL_INVESTMENT_INTOUCH</span>  All rights reserved! </div>
+
+</section>
+
+<!-- footer section ends -->
+<section class="footer">
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+<script>
+
+lightGallery(document.querySelector('.projects .box-container'));
+
+</script>
+
+</body>
+</html>
+
+
+
+
